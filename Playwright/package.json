@@ -1,0 +1,25 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumbertest": "cucumber-js test",
+    "cucumbertags": "cucumber-js test -t \"@sanity\" ",
+    "cucumbertags2": "cucumber-js test -t \"@sanity or @negative\" ",
+    "cucumbertagsreport": "cucumber-js test -t \"@sanity or @negative\" & node generate_cucumber_reports.js",
+    "cucumberalltest": "cucumber-js test & node generate_cucumber_reports.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "csv-parse": "^7.0.1",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
+

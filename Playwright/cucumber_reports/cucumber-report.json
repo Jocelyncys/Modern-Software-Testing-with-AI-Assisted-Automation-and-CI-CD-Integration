@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "blaze-demo-features;test-case---1",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test Case - 1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1816128300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User has navigated to \"https://blazedemo.com\"",
+            "match": {
+              "location": "tests\\steps\\cucumbersteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3513314800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User Searches for \"Boston\" to \"London\"",
+            "match": {
+              "location": "tests\\steps\\cucumbersteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3664610800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Result page should show 5 flights",
+            "match": {
+              "location": "tests\\steps\\cucumbersteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62471799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 520395599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "blaze-demo-features",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Blaze Demo Features",
+    "tags": [],
+    "uri": "tests\\features\\BlazeDemoFeature1.feature"
+  }
+]
